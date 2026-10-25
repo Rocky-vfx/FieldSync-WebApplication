@@ -1,0 +1,20 @@
+export const SKILL_CATEGORIES = [
+  { id: 1, name: 'Painter', description: 'Interior and exterior painting services', icon: 'Paintbrush', color: 'from-blue-500 to-indigo-600', bgLight: 'bg-blue-50 text-blue-700 border-blue-200' },
+  { id: 2, name: 'Carpenter', description: 'Woodwork, furniture repair, and custom carpentry', icon: 'Hammer', color: 'from-amber-600 to-orange-700', bgLight: 'bg-amber-50 text-amber-800 border-amber-200' },
+  { id: 3, name: 'Plumber', description: 'Pipe fitting, leak repair, and drainage work', icon: 'Wrench', color: 'from-cyan-500 to-blue-600', bgLight: 'bg-cyan-50 text-cyan-800 border-cyan-200' },
+  { id: 4, name: 'Electrician', description: 'Electrical wiring, repair, and fixture installation', icon: 'Zap', color: 'from-yellow-500 to-amber-600', bgLight: 'bg-yellow-50 text-yellow-800 border-yellow-200' },
+  { id: 5, name: 'Mason', description: 'Brickwork, plastering, and masonry construction', icon: 'Layers', color: 'from-stone-500 to-stone-700', bgLight: 'bg-stone-100 text-stone-800 border-stone-300' },
+  { id: 6, name: 'Welder', description: 'Metal welding, gate fabrication, and structure repair', icon: 'Flame', color: 'from-orange-500 to-red-600', bgLight: 'bg-orange-50 text-orange-800 border-orange-200' },
+  { id: 7, name: 'AC/Appliance Repair Technician', description: 'AC servicing, fridge, washing machine & microwave repair', icon: 'Thermometer', color: 'from-teal-500 to-emerald-600', bgLight: 'bg-teal-50 text-teal-800 border-teal-200' },
+  { id: 8, name: 'Pest Control Worker', description: 'Termite, rodent, bug and sanitization extermination', icon: 'ShieldAlert', color: 'from-emerald-500 to-green-700', bgLight: 'bg-emerald-50 text-emerald-800 border-emerald-200' },
+  { id: 9, name: 'Gardener/Landscaper', description: 'Garden maintenance, landscaping, pruning, and lawn care', icon: 'Flower2', color: 'from-green-500 to-emerald-600', bgLight: 'bg-green-50 text-green-800 border-green-200' },
+  { id: 10, name: 'House Cleaner/Housekeeping', description: 'Home deep cleaning, kitchen sanitisation, and move-in clean', icon: 'Sparkles', color: 'from-purple-500 to-indigo-600', bgLight: 'bg-purple-50 text-purple-800 border-purple-200' },
+  { id: 11, name: 'Movers/Loaders', description: 'Packing, loading, unloading, and heavy shifting services', icon: 'Truck', color: 'from-blue-600 to-cyan-700', bgLight: 'bg-blue-50 text-blue-800 border-blue-200' },
+  { id: 12, name: 'Tile/Flooring Worker', description: 'Tile laying, marble polishing, and wooden flooring installation', icon: 'Grid', color: 'from-slate-600 to-zinc-800', bgLight: 'bg-slate-100 text-slate-800 border-slate-300' },
+  { id: 13, name: 'Roofer', description: 'Roof repair, waterproofing, and sheet installation', icon: 'Home', color: 'from-rose-500 to-red-700', bgLight: 'bg-rose-50 text-rose-800 border-rose-200' },
+  { id: 14, name: 'Glass/Window Fitter', description: 'Glass cutting, window glazing, mirrors, and partition work', icon: 'Maximize2', color: 'from-sky-400 to-blue-600', bgLight: 'bg-sky-50 text-sky-800 border-sky-200' },
+  { id: 15, name: 'CCTV/Electronics Installer', description: 'CCTV cameras, smart doorbells, and intercom installation', icon: 'Camera', color: 'from-violet-500 to-purple-700', bgLight: 'bg-violet-50 text-violet-800 border-violet-200' },
+  { id: 16, name: 'Driver', description: 'Personal, commercial chauffeur, and parcel transport driving', icon: 'Car', color: 'from-amber-500 to-yellow-600', bgLight: 'bg-amber-50 text-amber-800 border-amber-200' },
+  { id: 17, name: 'Cook/Catering Help', description: 'Party cooking, daily chef, catering assistant and meal prep', icon: 'Utensils', color: 'from-rose-400 to-pink-600', bgLight: 'bg-rose-50 text-rose-800 border-rose-200' },
+  { id: 18, name: 'Security Guard', description: 'Residential, event security, and site gatekeeping services', icon: 'Shield', color: 'from-slate-700 to-slate-900', bgLight: 'bg-slate-100 text-slate-900 border-slate-300' }
+];
