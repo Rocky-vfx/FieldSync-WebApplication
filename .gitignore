@@ -1,0 +1,52 @@
+# ========================
+# Java / Spring Boot (Backend)
+# ========================
+fieldsync-backend/target/
+fieldsync-backend/.mvn/wrapper/maven-wrapper.jar
+fieldsync-backend/*.class
+fieldsync-backend/*.jar
+!fieldsync-backend/mvnw
+!fieldsync-backend/mvnw.cmd
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Spring Boot application properties with secrets
+fieldsync-backend/src/main/resources/application-local.properties
+fieldsync-backend/src/main/resources/application-secret.properties
+
+# ========================
+# Node / Frontend
+# ========================
+fieldsync-frontend/node_modules/
+fieldsync-frontend/dist/
+fieldsync-frontend/dist-ssr/
+fieldsync-frontend/*.local
+
+# ========================
+# Environment / Secrets
+# ========================
+.env
+.env.local
+.env.*.local
+
+# ========================
+# OS
+# ========================
+.DS_Store
+Thumbs.db
+
+# ========================
+# VS Code
+# ========================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
