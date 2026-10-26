@@ -1,4 +1,7 @@
-const BASE_URL = '/api';
+// In production (Vercel), set VITE_API_BASE_URL to your Render backend URL
+// e.g.  VITE_API_BASE_URL=https://fieldsync-backend.onrender.com/api
+// In local dev, Vite proxies '/api' → http://localhost:8080 (see vite.config.js)
+const BASE_URL = import.meta.env.VITE_API_BASE_URL || '/api';
 
 function getAuthHeader() {
   const token = localStorage.getItem('fieldsync_token');
